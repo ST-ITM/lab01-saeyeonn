@@ -1,10 +1,10 @@
 :root {
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
+  --primary: #5f6266;
+  --secondary: #6c6e70;
+  --success: rgb(163, 163, 73);
+  --info: #636868;
 }
 
 .d-flex {
@@ -74,12 +74,12 @@ strong {
 }
 
 a {
-  color: #007bff;
+  color: #505050;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #808080;
   text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
@@ -111,10 +111,15 @@ button:focus {
 input,
 button {
   margin: 0;
+  margin-top: 4%;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   overflow: visible;
+}
+input .submit,
+button .submit {
+  height: 30px;
 }
 input[type=button], input[type=reset], input[type=submit],
 button[type=button],
@@ -236,6 +241,8 @@ button {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
+  height: 30px;
+  margin-top: 2%;
 }
 button:hover, button:focus {
   text-decoration: none !important;

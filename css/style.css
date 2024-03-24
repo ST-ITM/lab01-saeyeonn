@@ -460,7 +460,7 @@ a[data-toggle=collapse] {
   align-items: center;
   position: absolute;
   left: 40%;
-  top: 40%;
+  top: 30%;
   text-align: center;
 }
 .home h1 {
@@ -486,11 +486,11 @@ a[data-toggle=collapse] {
 .portfolio,
 .contact {
   margin-left: 10%;
-  margin-right: 20%;
+  margin-right: 30%;
 }
 
 .skills {
-  margin-right: 20%;
+  margin-right: 30%;
 }
 .skills .progress-bar {
   width: 1px;

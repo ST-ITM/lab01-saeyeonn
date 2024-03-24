@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap-icons": "^1.11.3",
-    "boxicons": "^2.1.4",
-    "classnames": "^2.5.1",
-    "sass": "^1.72.0",
-    "typed.js": "^2.1.0"
-  }
-}

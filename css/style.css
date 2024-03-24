@@ -456,12 +456,9 @@ a[data-toggle=collapse] {
 }
 
 .home {
-  color: #000;
-  align-items: center;
   position: absolute;
-  left: 40%;
+  color: #000;
   top: 30%;
-  text-align: center;
 }
 .home h1 {
   font-size: 40px;
@@ -480,6 +477,7 @@ a[data-toggle=collapse] {
   padding-right: 2px;
 }
 
+.home,
 .education,
 .experience,
 .skills,

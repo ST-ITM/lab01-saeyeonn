@@ -1,4 +1,15 @@
-### Makefile
+### Site Address
+
+
+<a href="https://st-itm.github.io/lab01-saeyeonn/">Click Here</a>
+
+<br><br>
+
+
+### To test in local - Makefile
+
+- Should download scss compiler before make.
+
 ```
 # .scss -> .css
 
@@ -22,3 +33,10 @@ $ make clean
 <img src="./img/mobile3.png" width="40%">
 <img src="./img/mobile4.png" width="40%">
 </div>
+
+
+
+
+### Description Video
+
+<a href="https://github.com/ST-ITM/lab01-saeyeonn/blob/main/Description%20Video.mp4">Click Here</a>
